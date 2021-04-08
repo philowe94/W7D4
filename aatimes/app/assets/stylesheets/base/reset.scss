@@ -56,3 +56,9 @@ input[type="submit"] {
   display: table;
   clear: both;
 }
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
