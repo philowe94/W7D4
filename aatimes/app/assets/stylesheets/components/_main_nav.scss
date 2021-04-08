@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
@@ -41,15 +42,18 @@
     }
 
     > li:last-of-type {
+      transition: background-color 0.3s;
+
     }
   }
   
   i {
-    font-size: 15px;
+    padding: 8px;
+    font-size: 20px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  background-color: $lightest-gray;
+  background-color: $light-gray;
 }

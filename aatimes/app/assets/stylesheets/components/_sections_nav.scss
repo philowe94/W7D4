@@ -9,16 +9,23 @@
   border-bottom: 1px solid $light-gray;
   li {
     margin-left: 20px;
+    text-decoration: none;
+
   }
-  a {
+
+
+  li:not(:last-child) > a:hover {
+    background-color: $light-gray;
     text-decoration: none;
   }
+
   li:last-of-type {
-    text-decoration: underline;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 11px;
   }
+
+
 }
   
   
