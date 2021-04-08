@@ -24,6 +24,10 @@
 		color: $dark-gray;
 	}
 
+	li:first-of-type {
+		font-weight: 700;
+	}
+
 	ul {
 		display: flex;
 	}
@@ -44,6 +48,10 @@
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+	}
+
+	li:last-of-type {
+		border-right: none;
 	}
 
 	button {
