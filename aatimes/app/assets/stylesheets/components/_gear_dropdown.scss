@@ -9,6 +9,7 @@
   border: 1px solid $light-gray;
   width: 250px;
   z-index: 1000;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 
   li {
     ul{
@@ -16,14 +17,20 @@
         font-size: 14px;
         text-transform: uppercase;
         color: $gray;
-        padding: 10px;
+        margin: 10px;
+        padding: 3px;
       }
+      
     }
     ul:first-child {
       border-bottom: 1px solid $light-gray;
     }
     .help > li > a {
       color: $blue;
+      text-transform: none;
+    }
+    .editions > li:hover {
+      background-color: $light-gray;
     }
   }
 }
