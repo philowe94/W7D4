@@ -7,7 +7,7 @@ const toggleSidebar = () => {
 
 const toggleSideBarIfExpanded = (e) => {
 	e.preventDefault();
-	if(e.currentTarget.className === 'sections-sidebar expand') {
+	if(e.currentTarget.className === 'expand') {
 		setTimeout(toggleSidebar, 1000);
 	}
 }
