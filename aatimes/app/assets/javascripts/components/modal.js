@@ -2,7 +2,7 @@
 
 const toggleModal = () => {
 	$("#search-modal").toggleClass('expand')
-	$("#overlay").toggleClass('hidden')
+	$("#overlay").toggleClass('hidden2')
 };
 
 // Add click listener to search icon which invokes sidebar function
